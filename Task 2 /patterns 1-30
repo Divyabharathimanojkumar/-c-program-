@@ -1,0 +1,608 @@
+1. inverted right triangle
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++) {
+       for(int j=5;j>=i;j--) {
+           printf("*");
+       }       
+       printf("\n");
+   }
+}
+
+2. space triangle 
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++) {
+       for(int j=1;j<=n;j++) {
+           if(i+j<=n) {
+               printf(" ");
+           }
+           else {
+               printf("*");
+           }
+           
+       }
+       printf("\n");
+   }
+    return 0;
+}
+3. x pattern star 
+#include <stdio.h>
+
+int main()
+{
+  int n;
+  scanf("%d",&n);
+  for(int i=0;i<n;i++) {
+      for(int j=0;j<n;j++) {
+          if(i==j || i+j==n-1) {
+              printf("*");
+          }
+          else  {
+              printf(" ");
+          }
+      }
+      printf("\n");
+  }
+
+    return 0;
+}
+4. x pattern num
+#include <stdio.h>
+
+int main()
+{
+  int n;
+  scanf("%d",&n);
+  for(int i=0;i<n;i++) {
+      for(int j=0;j<n;j++) {
+          if(i==j || i+j==n-1) {
+              printf("%d",i+1);
+          }
+          else  {
+              printf(" ");
+          }
+      }
+      printf("\n");
+  }
+5. butterfly pattern 
+#include <stdio.h>
+
+int main() {
+    int i,j,n=5;
+    for(i = 1;i<=n;i++)
+    {
+        for(j=1;j<=10;j++)
+        {
+            if(j<= i || j>=11-i)
+            {
+                printf("* ");
+            }
+            else{
+                printf("  ");
+            }
+        }
+        printf("\n");
+        
+    }
+    for(i = 1;i<=n;i++)
+    {
+        for(j=1;j<=10;j++)
+        {
+            if(j<= 6-i || j>=5+i)
+            {
+                printf("* ");
+            }
+            else{
+                printf("  ");
+            }
+        }
+        printf("\n");
+        
+    }
+    return 0;
+}
+6. star pattern nested loop
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int n;
+
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=n;j++) {
+            printf("*");
+        }
+        printf("\n");
+       
+    }
+    return 0;
+}
+
+7. diff rows and columns 
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int a,b;
+    scanf("%d %d",&a,&b);
+    for(int i=1;i<=a;i++) {
+        for(int j=1;j<=b;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+8.right triangle 
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=i;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+9. inverted right triangle
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=n;j>=i;j--) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+10. rigt triangle in numbers 
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=i;j++) {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+11. star pattern nested loop
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int n;
+
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=n;j++) {
+            printf("*");
+        }
+        printf("\n");
+       
+    }
+    return 0;
+}
+
+12. diff rows and columns 
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int a,b;
+    scanf("%d %d",&a,&b);
+    for(int i=1;i<=a;i++) {
+        for(int j=1;j<=b;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+13.right triangle 
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=i;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+14. inverted right triangle
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++) {
+        for(int j=n;j>=i;j--) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+15 #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d", &n);
+    for( int i=1;i<=n;i++)
+    {
+  for (int j=1;j<=i;j++)
+      {
+        printf("*");
+      } 
+        printf("\n");
+    }
+        for (int i=n-1;i>=1;i--)
+        {
+        for(int j=1;j<=i;j++)
+        {
+             printf("*"); 
+        }
+            printf("\n");
+        }
+    
+    
+    return 0;
+}
+16 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d", &n);
+    for( int i=1;i<=n;i++)
+    {
+  for (int j=1;j<=i;j++)
+      {
+        printf("%d", j);
+      } 
+        printf("\n");
+    }
+        for (int i=n-1;i>=1;i--)
+        {
+        for(int j=1;j<=i;j++)
+        {
+             printf("%d",j); 
+        }
+            printf("\n");
+        }
+    
+    
+    return 0;
+}
+   
+ 
+17 
+#include <stdio.h>
+
+int main() {
+int n;
+    scanf("%d", &n);
+    for( int i=1;i<=n;i++)
+    {
+  for (int j=i;j>=1;j--)
+      {
+        printf("%d", j);
+      } 
+        printf("\n");
+    }
+        for (int i=n-1;i>=1;i--)
+        {
+        for(int j=i;j>=1;j--)
+        {
+             printf("%d",j); 
+        }
+            printf("\n");
+        }
+    
+    
+    return 0;
+}
+   
+ 
+ 
+18
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--){
+   for (int j=i;j<=n;j++){
+      printf("%d", j);
+       }
+         printf("\n");
+    }
+    for (int i=2;i<=n; i++){
+     for( int j=i;j<=n;j++){
+     printf("%d", j);
+         }
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+19 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    for(int i=1;i<=n;i++)
+    {
+    for(int j=1;j<=i;j++)
+        {
+        printf("%d", n);
+    } 
+        printf("\n");
+}
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+20 
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Number of rows
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+21
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Read input number
+
+    for (int i = 1; i <= n; i++) {
+        for (char ch = 'A'; ch < 'A' + i; ch++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+22
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Read input
+
+    for (int i = 0; i < n; i++) {
+        for (char ch = 'a' + i; ch >= 'a'; ch--) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+23
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Read input
+
+    for (int i = n; i >= 1; i--) {
+        for (char ch = 'A' + i - 1; ch >= 'A'; ch--) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+24
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    for (int i = 0; i < n; i++) {
+        for (char ch = 'A' + i; ch < 'A' + n; ch++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+225
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    for (int i = 0; i < n; i++) {
+        for (char ch = 'A' + n - 1; ch >= 'A' + i; ch--) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+26
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    for (int i = 0; i < n; i++) {
+        char ch = 'a' + i;
+        for (int j = 0; j <= i; j++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+27#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example input: 5
+
+    // Upper half: A to ABC... up to length n
+    for (int i = 1; i <= n; i++) {
+        for (char ch = 'A'; ch < 'A' + i; ch++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    // Lower half: from n-1 back to 1
+    for (int i = n - 1; i >= 1; i--) {
+        for (char ch = 'A'; ch < 'A' + i; ch++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+28 
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j <= i; j++) {
+            printf("%c%c", 'A' + j, 'a' + j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+29
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    char ch = 'A';
+
+    // Upper part (1 to n)
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+        ch++;
+    }
+
+    // Lower part (n-1 to 1)
+    for (int i = n - 1; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+        ch++;
+    }
+
+    return 0;
+}
+30
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Example: 5
+
+    char start = 'A' + n - 1;
+
+    // Upper half (including middle line)
+    for (int i = 1; i <= n; i++) {
+        for (char ch = start; ch >= start - i + 1; ch--) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    // Lower half
+    for (int i = n - 1; i >= 1; i--) {
+        for (char ch = start; ch >= start - i + 1; ch--) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
